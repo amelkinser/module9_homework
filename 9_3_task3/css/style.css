@@ -1,0 +1,121 @@
+@font-face {
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+  font-family: "OpenSansSemiBold";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container {
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 400px;
+  margin: 5px;
+  background-color: rgb(228, 211, 65);
+  margin: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.cards__item-title {
+  text-align: center;
+}
+
+.cards__item-img {
+  object-fit: contain;
+  padding: 0 10px;
+  height: 300px;
+}
+
+.data {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  font-family: "OpenSansSemiBold";
+}
+
+#data__input--numimg {
+  width: 180px;
+  outline: 0;
+  font-size: 13px;
+  padding: 8px 5px;
+  border: 1px solid #cecece;
+  background: #f6f6f6;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#data__input--numimg:hover {
+  color: black;
+  background: #fff;
+}
+
+#data__input--numimg:focus {
+  outline: 0;
+  border-color: #664e96;
+}
+
+.data__btn {
+  border: none;
+  border-radius: 2px;
+  background: #4676d7;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.data__btn:hover {
+  color: #fff;
+  background: #664e96;
+}
